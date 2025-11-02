@@ -14,7 +14,7 @@ enable_verbose_stdout_logging()  # enable verbose logging to stdout for debuggin
 
 gemini_api_key = os.getenv("GEMINI_API_KEY")
 
-# register the addition function as a tool
+# Function Tool
 addition_tool = function_tool(addition)
 subtraction_tool = function_tool(subtraction)
 multiplication_tool = function_tool(multiplication)
